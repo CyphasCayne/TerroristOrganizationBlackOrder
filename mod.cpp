@@ -1,0 +1,12 @@
+name = "Terrorist Organization Black Order";
+picture = "logo_TOBlackOrder_ca.paa";
+actionName = "Website";
+action = "http://dev.evul.nu/";
+description = "Terrorist Organization Black Order";
+logo = "logo_TOBlackOrder_ca.paa";
+logoOver = "logo_TOBlackOrder_cb.paa";
+tooltip = "Black Order";
+tooltipOwned = "Black Order";
+overview = "Terrorist Organization Black Order";
+author = "Brostrom.A | Evul";
+overviewPicture = "logo_TOBlackOrder_c.paa";
