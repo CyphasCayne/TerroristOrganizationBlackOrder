@@ -1,2 +1,9 @@
-/Releases
-/Addons/!mod
+Resourses/*
+*.cache
+*.pbo
+texHeaders.bin
+*.swp
+*.swo
+*.biprivatekey
+Thumbs.db
+Releases/*
