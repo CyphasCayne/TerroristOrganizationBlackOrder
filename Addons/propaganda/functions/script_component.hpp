@@ -1,1 +1,0 @@
-#include "\z\TOBlackOrder\addons\propaganda\script_component.hpp"

@@ -3,12 +3,11 @@ class CfgVehicles {
     class CAManBase: Man {
         class ACE_SelfActions {
             class ACE_Equipment {
-                class ACE_tagWallBlack;
-                class TERROR_tagWallRed_Special: ACE_tagWallBlack {
-                    displayName = "Tag Propaganda";
-                    //condition = QUOTE(('ACE_SpraypaintRed' in items ACE_player2) && ('ACE_player' in faction TERROR_Faction_O) && {[] call FUNC(checkTaggable)});
+                class ACE_tagWallRed;
+                class ACE_tagWallRed_Propaganda: ACE_tagWallRed {
+                    displayName = "Tag propaganda";
                     condition = QUOTE(('ACE_SpraypaintRed' in items ACE_player) && {[] call FUNC(checkTaggable)});
-                    statement = QUOTE([ARR_2(ACE_player,'red')] call FUNC(tagWall));
+                    statement = QUOTE([ARR_2(ACE_player,'z\toblackorder\addons\propaganda\ui\tags\red_special\0.paa')] call FUNC(tagWall));
                     icon = QUOTE(PATHTOF(UI\icons\iconTaggingRedSpecial.paa));
                 };
             };

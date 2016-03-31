@@ -10,7 +10,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "TOBlackOrder_Main",
-            "ACE_tagging"
+            "ace_tagging"
         };
         VERSION_CONFIG;
         author[] = {"Brostrom.A (Evul)"};
@@ -18,5 +18,4 @@ class CfgPatches {
 	};
 };
 
-#include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
