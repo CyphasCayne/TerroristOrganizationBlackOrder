@@ -76,8 +76,8 @@ class CfgWeapons {
     };
     
     //Special Forces
-    class rhs_weap_m4a1_m203s;
-    class TERROR_SFRifle_00 : rhs_weap_m4a1_m203s {
+    class rhs_weap_m4a1_m320;
+    class TERROR_SFRifle_00 : rhs_weap_m4a1_m320 {
         scope = 2;
         _generalMacro = "TERROR_SFRifle_00";
         displayName = "M4A1 PIP M203S (Black Order)";
