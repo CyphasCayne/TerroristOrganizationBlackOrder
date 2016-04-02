@@ -288,7 +288,7 @@ class CfgVehicles {
     class TERROR_O_SOLDIER_GL : TERROR_O_SOLDIER_R {
         scope = 2;
         author = "Brostrom.A";
-        _generalMacro = "TERROR_O_SOLDIER_R2";
+        _generalMacro = "TERROR_O_SOLDIER_GL";
         displayName = "Grenadier";
         backpack = "";
         uniformClass = "TERROR_U_Uniform_1";
@@ -335,7 +335,7 @@ class CfgVehicles {
     class TERROR_O_SOLDIER_AR : TERROR_O_SOLDIER_R {
         scope = 2;
         author = "Brostrom.A";
-        _generalMacro = "TERROR_O_SOLDIER_R";
+        _generalMacro = "TERROR_O_SOLDIER_AR";
         displayName = "Automatic Rifleman";
         icon = "iconManMG";
         uniformClass = "TERROR_U_Uniform_1";
