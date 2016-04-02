@@ -8,7 +8,7 @@ class CfgWeapons {
         author = "Brostrom.A";
         _generalMacro = "TERROR_U_Uniform_3";
         displayName = "Black Order Uniform (MP)";
-        picture = QUOTE(PATHTOF(data\uniform\icon\TERROR_U_Uniform_1.paa));
+        picture = QUOTE(PATHTOF(data\uniform\icon\TERROR_U_Uniform_3.paa));
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {

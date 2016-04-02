@@ -30,7 +30,7 @@ class CfgWeapons {
         author = "Brostrom.A";
         _generalMacro = "TERROR_U_Uniform_2";
         displayName = "Black Order Uniform (MEDIC)";
-        picture = QUOTE(PATHTOF(data\uniform\icon\TERROR_U_Uniform_1.paa));
+        picture = QUOTE(PATHTOF(data\uniform\icon\TERROR_U_Uniform_2.paa));
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_original_F.p3d";
         modelSides[] = {3,2,1,0};
         class ItemInfo : UniformItem {
@@ -94,7 +94,7 @@ class CfgWeapons {
         author = "Brostrom.A";
         _generalMacro = "TERROR_V_PlateCarrier_MEDIC";
         displayName = "Black Order Carrier Lite MEDIC";
-        picture = QUOTE(PATHTOF(data\vest\icon\TERROR_V_PlateCarrier_MEDIC.paa)); //WIP
+        picture = QUOTE(PATHTOF(data\vest\icon\TERROR_V_PlateCarrier_MEDIC.paa));
         hiddenSelectionsTextures[] = {
             PATHTOF(data\vest\TERROR_V_PlateCarrier_MEDIC.paa)
         };
