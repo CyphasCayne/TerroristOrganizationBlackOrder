@@ -12,9 +12,19 @@ class CfgPatches {
             "TERROR_O_SOLDIER_FTL",
             "TERROR_O_SOLDIER_GL",
             "TERROR_O_SOLDIER_AR",
+            "TERROR_O_SOLDIER_LAT",
+            "TERROR_O_SOLDIER_AT",
             "TERROR_O_SOLDIER_MEDIC",
             
-            "TERROR_B_AssaultPack_MEDIC"
+            "TERROR_InfSquad",
+            "TERROR_InfSquad_Weapons",
+            "TERROR_InfTeam",
+            "TERROR_InfTeam_AA",
+            "TERROR_InfTeam_AT",
+            "TERROR_InfSquad_Sentry",
+            
+            "TERROR_B_AssaultPack_MEDIC",
+            "TERROR_B_TacticalPack_AT"
         };
         weapons[] = {
             "TERROR_U_Uniform_1",
@@ -43,3 +53,4 @@ class CfgPatches {
 };
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
+#include "CfgGroups.hpp"

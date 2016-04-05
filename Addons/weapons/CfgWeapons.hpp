@@ -16,6 +16,7 @@ class CfgWeapons {
         };
     };
     class TERROR_MBRifle_01 : TERROR_MBRifle_00 {
+        scope = 1;
         class LinkedItems {
             MACRO_LINKEDOPTIC(rhsusf_acc_eotech_552);
             MACRO_LINKEDACC(rhsusf_acc_anpeq15A);
@@ -24,6 +25,7 @@ class CfgWeapons {
         };
     };
     class TERROR_MBRifle_02 : TERROR_MBRifle_00 {
+        scope = 1;
         class LinkedItems {
             MACRO_LINKEDOPTIC(rhsusf_acc_ACOG);
             MACRO_LINKEDACC(rhsusf_acc_anpeq15A);
@@ -32,6 +34,7 @@ class CfgWeapons {
         };
     };
     class TERROR_MBRifle_03 : TERROR_MBRifle_00 {
+        scope = 1;
         class LinkedItems {
             MACRO_LINKEDOPTIC(rhsusf_acc_ELCAN);
             MACRO_LINKEDACC(rhsusf_acc_anpeq15A);
