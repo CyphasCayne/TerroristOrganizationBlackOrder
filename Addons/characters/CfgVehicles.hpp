@@ -378,6 +378,112 @@ class CfgVehicles {
         linkedItems[] = {"rhs_googles_clear","TERROR_H_CombatHelmet_1","TERROR_V_PlateCarrier","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
         respawnLinkedItems[] = {"rhs_googles_clear","TERROR_H_CombatHelmet_1","TERROR_V_PlateCarrier","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
     };
+    class TERROR_O_SOLDIER_LAT : TERROR_O_SOLDIER_R {
+        scope = 2;
+        author = "Brostrom.A";
+        _generalMacro = "TERROR_O_SOLDIER_LAT";
+        displayName = "Rifleman (AT)";
+        backpack = "";
+        uniformClass = "TERROR_U_Uniform_1";
+        uniformAccessories[] = {};
+        weapons[] = {"TERROR_MBRifle_02","TERROR_SideArm_00","rhs_weap_M136","Throw","Put"};
+        respawnWeapons[] = {"TERROR_MBRifle_02","TERROR_SideArm_00","rhs_weap_M136","Throw","Put"};
+        Items[] = {
+            QUA1(ACE_MapTools),
+            QUA1(ACE_Flashlight_XL50),
+            QUA2(ACE_fieldDressing),
+            QUA1(ACE_Morphine),
+            QUA1(ACE_EarBuds),
+            QUA1(ACE_CableTie),
+            QUA1(ACE_DAGR)
+        };
+        RespawnItems[] = {
+            QUA1(ACE_MapTools),
+            QUA1(ACE_Flashlight_XL50),
+            QUA2(ACE_fieldDressing),
+            QUA1(ACE_Morphine),
+            QUA1(ACE_EarBuds),
+            QUA1(ACE_CableTie),
+            QUA1(ACE_DAGR)
+        };
+        magazines[] = {
+            QUA4(ACE_20Rnd_762x51_M118LR_Mag),
+            QUA4(ACE_20Rnd_762x51_M118LR_Mag),
+            QUA2(rhsusf_mag_17Rnd_9x19_FMJ),
+            QUA2(HandGrenade),
+            QUA2(SmokeShell),
+            QUA1(SmokeShellGreen),
+            QUA1(Chemlight_red),
+            QUA1(Chemlight_blue),
+            QUA1(Chemlight_green)
+        };
+        respawnMagazines[] = {
+            QUA4(ACE_20Rnd_762x51_M118LR_Mag),
+            QUA4(ACE_20Rnd_762x51_M118LR_Mag),
+            QUA2(rhsusf_mag_17Rnd_9x19_FMJ),
+            QUA2(HandGrenade),
+            QUA2(SmokeShell),
+            QUA1(SmokeShellGreen),
+            QUA1(Chemlight_red),
+            QUA1(Chemlight_blue),
+            QUA1(Chemlight_green)
+        };
+        linkedItems[] = {"rhs_googles_clear","TERROR_H_CombatHelmet_1","TERROR_V_PlateCarrier","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
+        respawnLinkedItems[] = {"rhs_googles_clear","TERROR_H_CombatHelmet_1","TERROR_V_PlateCarrier","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
+    };
+    class TERROR_O_SOLDIER_AT : TERROR_O_SOLDIER_R {
+        scope = 2;
+        author = "Brostrom.A";
+        _generalMacro = "TERROR_O_SOLDIER_AT";
+        displayName = "Anti-tank Specialist";
+        backpack = "TERROR_B_AssaultPack_AT";
+        uniformClass = "TERROR_U_Uniform_1";
+        uniformAccessories[] = {};
+        weapons[] = {"TERROR_MBRifle_02","TERROR_SideArm_00","rhs_weap_fgm148","Throw","Put"};
+        respawnWeapons[] = {"TERROR_MBRifle_02","TERROR_SideArm_00","rhs_weap_fgm148","Throw","Put"};
+        Items[] = {
+            QUA1(ACE_MapTools),
+            QUA1(ACE_Flashlight_XL50),
+            QUA2(ACE_fieldDressing),
+            QUA1(ACE_Morphine),
+            QUA1(ACE_EarBuds),
+            QUA1(ACE_CableTie),
+            QUA1(ACE_DAGR)
+        };
+        RespawnItems[] = {
+            QUA1(ACE_MapTools),
+            QUA1(ACE_Flashlight_XL50),
+            QUA2(ACE_fieldDressing),
+            QUA1(ACE_Morphine),
+            QUA1(ACE_EarBuds),
+            QUA1(ACE_CableTie),
+            QUA1(ACE_DAGR)
+        };
+        magazines[] = {
+            QUA4(ACE_20Rnd_762x51_M118LR_Mag),
+            QUA4(ACE_20Rnd_762x51_M118LR_Mag),
+            QUA2(rhsusf_mag_17Rnd_9x19_FMJ),
+            QUA2(HandGrenade),
+            QUA2(SmokeShell),
+            QUA1(SmokeShellGreen),
+            QUA1(Chemlight_red),
+            QUA1(Chemlight_blue),
+            QUA1(Chemlight_green)
+        };
+        respawnMagazines[] = {
+            QUA4(ACE_20Rnd_762x51_M118LR_Mag),
+            QUA4(ACE_20Rnd_762x51_M118LR_Mag),
+            QUA2(rhsusf_mag_17Rnd_9x19_FMJ),
+            QUA2(HandGrenade),
+            QUA2(SmokeShell),
+            QUA1(SmokeShellGreen),
+            QUA1(Chemlight_red),
+            QUA1(Chemlight_blue),
+            QUA1(Chemlight_green)
+        };
+        linkedItems[] = {"rhs_googles_clear","TERROR_H_CombatHelmet_1","TERROR_V_PlateCarrier","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
+        respawnLinkedItems[] = {"rhs_googles_clear","TERROR_H_CombatHelmet_1","TERROR_V_PlateCarrier","ItemMap","ItemCompass","ItemWatch","ItemRadio","rhsusf_ANPVS_14"};
+    };
     class TERROR_O_SOLDIER_MEDIC : TERROR_O_SOLDIER_BASE {
         scope = 2;
         author = "Brostrom.A";
@@ -480,6 +586,7 @@ class CfgVehicles {
 
     // Backpack
     class B_AssaultPack_blk;
+    class B_TacticalPack_blk;
     class TERROR_B_AssaultPack_MEDIC : B_AssaultPack_blk {
         scope = 1;
         _generalMacro = "TERROR_B_AssaultPack_MEDIC";
@@ -496,4 +603,12 @@ class CfgVehicles {
             MACRO_ADDITEM(ACE_salineIV_250,4);
         };
     };
+    class TERROR_B_TacticalPack_AT : B_TacticalPack_blk {
+        scope = 1;
+        _generalMacro = "TERROR_B_AssaultPack_AT";
+        class TransportItems {
+            MACRO_ADDMAGAZINE(rhs_fgm148_magazine_AT,1);
+        };
+    };
+
 };

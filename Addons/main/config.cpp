@@ -580,7 +580,7 @@ class CfgPatches {
             
             //RHS
             "rhsusf_c_weapons",
-            "rhsusf_infantry"
+            "rhsusf_weapons"
         };
         VERSION_CONFIG;
         author[] = {"Brostrom.A (Evul)"};
