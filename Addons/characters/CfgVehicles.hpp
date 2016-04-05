@@ -436,7 +436,7 @@ class CfgVehicles {
         author = "Brostrom.A";
         _generalMacro = "TERROR_O_SOLDIER_AT";
         displayName = "Anti-tank Specialist";
-        backpack = "TERROR_B_AssaultPack_AT";
+        backpack = "TERROR_B_TacticalPack_AT";
         uniformClass = "TERROR_U_Uniform_1";
         uniformAccessories[] = {};
         weapons[] = {"TERROR_MBRifle_02","TERROR_SideArm_00","rhs_weap_fgm148","Throw","Put"};
