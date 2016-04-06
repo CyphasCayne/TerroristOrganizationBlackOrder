@@ -149,6 +149,7 @@ class CfgVehicles {
         magazines[] = {
             QUA3(30Rnd_65x39_caseless_mag),
             QUA3(30Rnd_65x39_caseless_mag),
+            QUA2(rhsusf_mag_17Rnd_9x19_JHP),
             QUA1(rhs_mag_m7a3_cs),
             QUA2(rhs_mag_mk3a2),
             QUA1(SmokeShell),
@@ -160,6 +161,7 @@ class CfgVehicles {
         respawnMagazines[] = {
             QUA3(30Rnd_65x39_caseless_mag),
             QUA3(30Rnd_65x39_caseless_mag),
+            QUA2(rhsusf_mag_17Rnd_9x19_JHP),
             QUA1(rhs_mag_m7a3_cs),
             QUA2(rhs_mag_mk3a2),
             QUA1(SmokeShell),
