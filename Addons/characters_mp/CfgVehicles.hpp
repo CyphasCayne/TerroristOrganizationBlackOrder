@@ -135,7 +135,7 @@ class CfgVehicles {
             QUA1(ACE_Morphine),
             QUA1(ACE_EarBuds),
             QUA4(ACE_CableTie),
-            QUA4(ACE_microDAGR)
+            QUA1(ACE_microDAGR)
         };
         RespawnItems[] = {
             QUA1(ACE_MapTools),
@@ -144,7 +144,7 @@ class CfgVehicles {
             QUA1(ACE_Morphine),
             QUA1(ACE_EarBuds),
             QUA4(ACE_CableTie),
-            QUA4(ACE_microDAGR)
+            QUA1(ACE_microDAGR)
         };
         magazines[] = {
             QUA3(30Rnd_65x39_caseless_mag),
