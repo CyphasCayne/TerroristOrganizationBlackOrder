@@ -6,10 +6,12 @@
 
 #### Content
 * Black Order Faction (OPFOR)
-* Army Units
+* Army Units and Groups
 * Military Police Units
 * Science Division
 * Special Operations Units
+* Faction specific items
+* Faction specific vehicles
 
 #### Addon required
 <a href=http://www.armaholic.com/page.php?id=18767>CBA</a><br>
